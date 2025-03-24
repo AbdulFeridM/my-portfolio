@@ -69,15 +69,15 @@
 
     <section id="contact">
         <h2 class="section-title">Contact Me</h2>
-        <form class="contact-form" id="contactForm">
+        <form class="contact-form" id="contactForm" onsubmit="submitForm(event)">
             <div class="form-group">
-                <input type="text" placeholder="Name" required>
+            <input type="text" id="name" placeholder="Name" required>
             </div>
             <div class="form-group">
-                <input type="email" placeholder="Email" required>
+            <input type="email" id="email" placeholder="Email" required>
             </div>
             <div class="form-group">
-                <textarea placeholder="Message" rows="5" required></textarea>
+            <textarea id="message" placeholder="Message" rows="5" required></textarea>
             </div>
             <button type="submit">Send Message</button>
         </form>
@@ -87,7 +87,8 @@
         <div class="social-links">
             <a href="www.github.com/AbdulFerid"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/abdul-ferid-musefa-175b86339/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BBEtludeeQROTd28IF9TsYA%3D%3D"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/AbdulferidM"><i class="fab fa-telegram-plane"></i></a>
+        <a href="tel:+251947718404"><i class="fas fa-phone"></i> <small>+251947718404</small></a>
         </div>
         <p>&copy; 2025 AbdulFerid. All rights reserved.</p>
     </footer>
